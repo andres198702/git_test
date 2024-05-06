@@ -5,37 +5,33 @@
 #Caja {
   width: 100%;
   display: flex;
-  flex-direction: row;
-  justify-content: center;
 }
 #box {
-  display: inline-flex;
-  width: 1600px;
+  width: 100%;
+  display: flex;
   flex-direction: row;
-  justify-content: space-around;
-  margin-top: 30px;
-  background-color: aquamarine;
+  justify-content: space-between;
+  margin-top: 50px;
+  background: aquamarine;
   border-radius: 50px 20px 50px 20px;
 }
 .logo {
-  width: 100px;
-  height: 100px;
+  width: 150px;
+  height: 150px;
   border-radius: 100%;
-  background-color: black;
-  margin-right: 400px;
+  background: black;
+  margin-left: 60px;
 }
 .lista {
-  display: inline-flex;
-  flex-direction: row;
-  font-weight: bold;
-  gap: 3rem;
+  width: 80%;
+  display: flex;
   align-items: center;
+  justify-content: space-around;
 }
 #orden {
-  display: flex;
+  text-decoration: none;
   font-size: 1.5rem;
-  justify-content: space-around;
-  color: #0000;
+  list-style: none;
 }
 a {
   text-decoration: none;
